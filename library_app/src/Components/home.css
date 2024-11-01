@@ -1,0 +1,32 @@
+.container-home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url(https://media.istockphoto.com/id/1498878143/photo/book-stack-and-open-book-on-the-desk-in-modern-public-library.jpg?s=612x612&w=0&k=20&c=vRcxdgfHSFJkow6DNPtaL9DT_ttdMGWel-qRLEzkQEI=);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.container-home .content-home{
+    height: 30vh;
+    width: 30vw; 
+    margin-left: 55vw ;
+    margin-top: 20vh;
+    border: solid 1px  black;
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    border-radius: 20px;
+    background: rgba(152, 160, 168, 0.32);
+}
+.container-home .content-home h2{
+    font-size: 5vh;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+}
+.container-home .content-home p{
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

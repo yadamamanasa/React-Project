@@ -1,0 +1,51 @@
+.contact-form .input-fields{
+    height: 65vh ;
+    width: 60vh;
+    border: solid 1px black;
+    margin:  20vh auto;
+    background: rgb(235, 131, 235);
+    box-shadow: 5px 5px 5px  purple;
+    border-radius: 10px;
+    border: none;
+}
+.contact-form  .title{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;    
+    text-decoration: underline;
+    text-shadow: 2px 2px 1px purple;
+}
+.contact-form .input-fields input{
+    padding: 10px;
+    margin: 4vh 10vh;
+    border-radius: 2vh;
+    width: 20vw;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    box-shadow:  2px 2px 2px 2px rgb(218, 7, 218);
+}
+.contact-form .input-fields textarea{
+    margin: 4vh 10vh;
+    padding: 30px ;
+    width: 17vw;
+    border-radius: 2vh;
+    text-align: center;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    font-style: italic;
+    box-shadow:   2px 2px 2px 2px rgb(206, 22, 206);
+}
+.contact-form .input-fields button{
+    border-radius: 2vh;
+    text-align: center;
+    margin-left: 13vw;
+    padding: 10px ;
+    width: 6vw;
+}

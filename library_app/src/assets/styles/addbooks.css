@@ -1,0 +1,62 @@
+.input-head .input-container{
+    height: 70vh;
+    width: 60vw;
+    border: solid 1px black;
+    /* display: flex;
+    margin: auto; */
+    margin-left: 20vw;
+    border-radius: 2vh;
+    background: rgb(239, 175, 239);
+    box-shadow:2px 2px 20px  rgb(216, 95, 190);
+}
+.input-head .input-fields{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10vh;
+    column-gap: 10vh;
+    row-gap: 30px;
+ }
+/* .input-head .input-container .header{
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30px;
+} */
+.input-head .title{
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+    font-style: italic;
+    margin-top: 5px;
+    color: rgb(108, 10, 108) ;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.input-head .input-fields input{
+    padding: 10px;
+    /* border: solid 2px black; */
+    width: 20vw;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow:  5px 5px 5px  purple;
+    border: none;
+    margin-left: 40px;
+    text-decoration: none; 
+    /* box-shadow: inset 1px 1px 1px palegreen; */
+}
+.input-container .button{   
+    margin: 6vh auto;
+    display: flex;
+    padding: 15px 15px 15px 15px;
+    /* width: 12vw; */
+    height: 5vh;
+    align-items: center;
+    border-radius: 5px;
+    color: white ;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    background: purple;
+}
